@@ -1,0 +1,161 @@
+html, body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; }
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent; }
+
+body, th, td, p, ol, ul, li, dl, dt, dd, a, h1, h2, h3, h4, h5, h6, form, fieldset, input, legend, select, textarea {
+  margin: 0;
+  padding: 0; }
+
+input, img, fieldset {
+  border: none; }
+
+input, select, fieldset {
+  vertical-align: middle; }
+
+ul, ol {
+  padding-left: 0;
+  list-style-type: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  vertical-align: top; }
+
+i, cite, em, var, address, dfn {
+  font-style: normal; }
+
+a:link {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+input:focus:-moz-placeholder, input:focus::-moz-placeholder {
+  color: transparent; }
+
+button, input[type=button], input[type=password], input[type=submit], input[type=text], textarea {
+  -webkit-appearance: none; }
+
+input:-ms-clear {
+  display: none; }
+
+/* clear IE10 X */
+input {
+  -webkit-user-modify: read-write-plaintext-only; }
+
+select {
+  overflow-x: hidden; }
+
+.clear::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  line-height: 0;
+  visibility: hidden; }
+
+.tl {
+  text-align: left; }
+
+.tc {
+  text-align: center; }
+
+.tr {
+  text-align: right; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.vm {
+  vertical-align: middle; }
+
+.pr {
+  position: relative; }
+
+.pa {
+  position: absolute; }
+
+.none {
+  display: none; }
+
+.block {
+  display: block; }
+
+/* ellipsis */
+.elli {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+del {
+  text-decoration: line-through; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: 'Microsoft YaHei'; }
+
+.pan-box {
+  width: 9.00267rem;
+  height: 9.00267rem;
+  background: url(../images/pan.png) center top no-repeat;
+  background-size: 100% 100%;
+  margin: 0.55467rem auto;
+  position: relative; }
+  .pan-box .pan {
+    width: 100%;
+    position: relative;
+    z-index: 4; }
+  .pan-box .neddle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2.56rem;
+    height: 2.96533rem;
+    margin: -1.48267rem 0 0 -1.28rem;
+    background: url(../images/neddle.png) center top no-repeat;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 60%;
+    background-size: 100%;
+    z-index: 4; }
+  .pan-box .roles {
+    width: 15.70133rem;
+    height: 9.38667rem;
+    position: absolute;
+    left: -3.41333rem;
+    top: 0;
+    background: url(../images/roles.png) center top no-repeat;
+    background-size: 100%;
+    z-index: 1; }
+
+/*# sourceMappingURL=active7.css.map */

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新仙剑奇侠传周年庆典 做任务领豪礼！</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+<!--
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+-->
+<meta name="format-detection"content="telephone=no, email=no">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link href="css/active7.css" rel="stylesheet">
+<script>
+	// 按 1rem =(750 / 16)px 换算
+	(function (doc, win) {
+	  var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange': 'resize',
+		recalc = function () {
+		  var clientWidth = docEl.clientWidth;
+		  if (!clientWidth) return;
+		  if(clientWidth>750) clientWidth = 750;
+		  // 按照设计稿750px来计算 浏览器默认基数单位为1rem = 16px,所以这里的1rem = 750 / 16
+		  docEl.style.fontSize = (750 / 16) * (clientWidth / 750) + 'px';
+		};
+
+	  if (!doc.addEventListener) return;
+	  win.addEventListener(resizeEvt, recalc, false);
+	  recalc();
+	})(document, window);
+</script>
+</head>
+
+<body>
+<article class="active7-content">
+	<div class="pan-box">
+		<img src="images/pan.png" class="pan">
+		<div class="neddle"></div>
+		<div class="roles"></div>
+	</div>
+</article>
+</body>
+<script src="./js/sea.js?t=1448499715" id="seaJS" data-base="./js/"></script>
+<script>
+seajs.use("app.js?t=1448499715",function(app){
+  app.init('active7');
+});
+</script>
+</html>
